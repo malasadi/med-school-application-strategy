@@ -5,7 +5,12 @@ import { cn } from "@/lib/utils"
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
-      <div className="mx-auto max-w-6xl px-5 pb-16 pt-16 md:pb-24 md:pt-24">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+        <div className="absolute -left-32 -top-40 size-[32rem] rounded-full bg-primary/15 blur-3xl" />
+        <div className="absolute -right-24 top-10 size-[28rem] rounded-full bg-accent/20 blur-3xl" />
+        <div className="absolute -bottom-32 left-1/3 size-[26rem] rounded-full bg-primary/10 blur-3xl" />
+      </div>
+      <div className="relative mx-auto max-w-6xl px-5 pb-16 pt-16 md:pb-24 md:pt-24">
         <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3.5 py-1.5 text-xs font-medium text-muted-foreground">
