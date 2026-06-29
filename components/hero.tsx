@@ -59,29 +59,18 @@ export function Hero() {
 
           <div className="relative">
             <div className="absolute -right-6 -top-6 hidden size-28 rounded-full bg-accent/30 blur-2xl lg:block" />
-            <div className="relative rounded-2xl border border-border bg-card p-6 shadow-sm">
-              <p className="font-heading text-sm font-semibold uppercase tracking-wider text-primary">
-                Why students get stuck
-              </p>
-              <p className="mt-3 text-pretty text-xl font-medium leading-snug text-foreground">
-                Most students don&apos;t fail because their stats are bad.
-              </p>
-              <p className="mt-2 text-pretty leading-relaxed text-muted-foreground">
-                They struggle because they focus on the wrong thing for months.
-                A clear, personalized plan changes everything.
-              </p>
-
-              <div className="mt-6 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-3">
+            <div className="relative rounded-2xl border border-border bg-card p-8 shadow-sm">
+              <div className="grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-3">
                 {stats.map((stat) => (
                   <div
                     key={stat.label}
-                    className="flex flex-col gap-1 bg-card p-4"
+                    className="flex flex-col items-center justify-center gap-3 bg-card px-4 py-8 sm:px-3"
                   >
-                    <stat.icon className="size-5 text-primary" aria-hidden="true" />
-                    <span className="font-heading text-xl font-semibold text-foreground">
+                    <stat.icon className="size-7 text-primary" aria-hidden="true" />
+                    <span className="font-heading text-4xl font-semibold text-foreground sm:text-5xl">
                       {stat.value}
                     </span>
-                    <span className="text-xs leading-snug text-muted-foreground">
+                    <span className="text-center text-sm leading-snug text-muted-foreground">
                       {stat.label}
                     </span>
                   </div>
