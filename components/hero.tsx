@@ -49,6 +49,25 @@ export function Hero() {
             <p className="mt-4 text-sm text-muted-foreground">
               Get clarity on your application in minutes.
             </p>
+
+            <div className="mt-12 grid gap-8 sm:grid-cols-2">
+              <div>
+                <div className="font-heading text-5xl font-semibold text-foreground sm:text-6xl">
+                  1,000+
+                </div>
+                <p className="mt-2 text-muted-foreground">
+                  students used the free checker
+                </p>
+              </div>
+              <div>
+                <div className="font-heading text-5xl font-semibold text-foreground sm:text-6xl">
+                  10,000+
+                </div>
+                <p className="mt-2 text-muted-foreground">
+                  students reached every week on TikTok
+                </p>
+              </div>
+            </div>
           </div>
 
 
