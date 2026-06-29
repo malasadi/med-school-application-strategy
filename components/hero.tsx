@@ -1,12 +1,6 @@
-import { ArrowRight, CheckCircle2, Clock, Users } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-
-const stats = [
-  { icon: Users, value: "1,000+", label: "students used the free checker" },
-  { icon: Clock, value: "48 hrs", label: "turnaround on every review" },
-  { icon: CheckCircle2, value: "10,000s", label: "reached weekly on TikTok" },
-]
 
 export function Hero() {
   return (
@@ -57,27 +51,7 @@ export function Hero() {
             </p>
           </div>
 
-          <div className="relative">
-            <div className="absolute -right-6 -top-6 hidden size-28 rounded-full bg-accent/30 blur-2xl lg:block" />
-            <div className="relative rounded-2xl border border-border bg-card p-8 shadow-sm">
-              <div className="grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-3">
-                {stats.map((stat) => (
-                  <div
-                    key={stat.label}
-                    className="flex flex-col items-center justify-center gap-3 bg-card px-4 py-8 sm:px-3"
-                  >
-                    <stat.icon className="size-7 text-primary" aria-hidden="true" />
-                    <span className="font-heading text-4xl font-semibold text-foreground sm:text-5xl">
-                      {stat.value}
-                    </span>
-                    <span className="text-center text-sm leading-snug text-muted-foreground">
-                      {stat.label}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
