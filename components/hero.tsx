@@ -37,7 +37,7 @@ export function Hero() {
                   "h-12 gap-2 px-6 text-base",
                 )}
               >
-                Get my strategy review — $59
+                Get my strategy review ($59)
                 <ArrowRight className="size-4" />
               </a>
               <a
