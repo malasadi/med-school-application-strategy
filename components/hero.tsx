@@ -10,14 +10,11 @@ export function Hero() {
         <div className="absolute -right-24 top-10 size-[28rem] rounded-full bg-accent/20 blur-3xl" />
         <div className="absolute -bottom-32 left-1/3 size-[26rem] rounded-full bg-primary/10 blur-3xl" />
       </div>
-      <div className="relative mx-auto max-w-6xl px-5 pb-16 pt-16 md:pb-24 md:pt-24">
-        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
-          <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3.5 py-1.5 text-xs font-medium text-muted-foreground">
-              <span className="size-1.5 rounded-full bg-accent" />
-              For Canadian premed students
-            </span>
+      <div className="relative mx-auto max-w-6xl px-5 pb-10 pt-16 md:pb-16 md:pt-24">
+        <div className="grid items-center gap-2 lg:grid-cols-[0.5fr_1.5fr]">
 
+          {/* LEFT SIDE */}
+          <div>
             <h1 className="mt-6 text-balance font-heading text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
               Not sure what to do with your med school application?
             </h1>
@@ -31,17 +28,15 @@ export function Hero() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#pricing"
-                className={cn(
-                  buttonVariants(),
-                  "h-12 gap-2 px-6 text-base",
-                )}
+                href="https://buy.stripe.com/3cI28td5BaF96LF1qk8IU00"
+                className={cn(buttonVariants(), "h-12 gap-2 px-6 text-base")}
               >
-                Get my strategy review — $59
+                Get my strategy review ($59)
                 <ArrowRight className="size-4" />
               </a>
+
               <a
-                href="#eligibility"
+                href="https://malasadi.github.io/medchance/"
                 className={cn(
                   buttonVariants({ variant: "outline" }),
                   "h-12 px-6 text-base",
@@ -55,26 +50,18 @@ export function Hero() {
               Get clarity on your application in minutes.
             </p>
           </div>
+
+          {/* RIGHT SIDE */}
+          <div className="relative mt-15">
+            <img
+              src="/images/Mask group2.svg"
+              alt="Hero illustration"
+              className="w-[150%] h-auto"
+            />
+          </div>
+
         </div>
 
-        <div className="mt-16 grid gap-12 sm:grid-cols-2 md:mt-20">
-          <div>
-            <div className="font-heading text-6xl font-semibold text-foreground sm:text-7xl md:text-8xl">
-              1,000+
-            </div>
-            <p className="mt-3 text-lg text-muted-foreground">
-              students used the free checker
-            </p>
-          </div>
-          <div>
-            <div className="font-heading text-6xl font-semibold text-foreground sm:text-7xl md:text-8xl">
-              10,000+
-            </div>
-            <p className="mt-3 text-lg text-muted-foreground">
-              students reached every week on TikTok
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   )

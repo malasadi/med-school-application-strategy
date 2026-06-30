@@ -3,7 +3,6 @@ import { Hero } from "@/components/hero"
 import { HowItWorks } from "@/components/how-it-works"
 import { WhatYouGet } from "@/components/what-you-get"
 import { Pricing } from "@/components/pricing"
-import { EligibilityChecker } from "@/components/eligibility-checker"
 import { About } from "@/components/about"
 import { EarlyAccess } from "@/components/early-access"
 import { Faq } from "@/components/faq"
@@ -16,11 +15,9 @@ export default function Page() {
       <main>
         <Hero />
         <HowItWorks />
-        <WhatYouGet />
         <Pricing />
-        <EligibilityChecker />
+        <WhatYouGet />
         <About />
-        <EarlyAccess />
         <Faq />
       </main>
       <SiteFooter />

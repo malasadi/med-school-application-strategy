@@ -12,26 +12,12 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: 'Premed Compass — Canadian Med School Application Strategy with Mo',
+  title: 'Mo Alasadi | Med school strategy',
   description:
-    'Get a personalized breakdown of your Canadian medical school application. Know whether to retake the MCAT, raise your GPA, build activities, or apply this cycle — in minutes.',
-  generator: 'v0.app',
+    'Get a personalized breakdown of your Canadian medical school application. Know whether to retake the MCAT, raise your GPA, build activities, or apply this cycle.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: 'images/icon.svg',
+    apple: 'images/icon.svg',
   },
 }
 

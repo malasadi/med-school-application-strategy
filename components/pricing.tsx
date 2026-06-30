@@ -19,7 +19,7 @@ const freeIncludes = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="border-y border-border bg-secondary/40">
+    <section id="pricing" className="border-y border-border">
       <div className="mx-auto max-w-6xl px-5 py-16 md:py-24">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance font-heading text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
@@ -62,7 +62,7 @@ export function Pricing() {
               ))}
             </ul>
             <a
-              href="#eligibility"
+              href="https://buy.stripe.com/3cI28td5BaF96LF1qk8IU00"
               className={cn(
                 buttonVariants(),
                 "mt-8 h-12 w-full gap-2 px-6 text-base",
@@ -82,7 +82,6 @@ export function Pricing() {
               <span className="font-heading text-4xl font-semibold text-foreground">
                 Free
               </span>
-              <span className="text-sm text-muted-foreground">no cost</span>
             </div>
             <p className="mt-3 leading-relaxed text-muted-foreground">
               Instantly see how your stats compare across Canadian medical
@@ -97,7 +96,7 @@ export function Pricing() {
               ))}
             </ul>
             <a
-              href="#eligibility"
+              href="https://malasadi.github.io/medchance/"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "mt-8 h-12 w-full px-6 text-base",

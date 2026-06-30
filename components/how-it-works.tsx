@@ -2,17 +2,17 @@ const steps = [
   {
     number: "01",
     title: "Share your profile",
-    body: "Tell me your GPA, MCAT, and the activities you've built so far. The more honest, the sharper the plan.",
+    body: "Your GPA, MCAT (if you have it), and a quick rundown of your activities. No formal CV needed. A few sentences per activity is enough. The more honest you are about where things actually stand, the more useful this gets.",
   },
   {
     number: "02",
-    title: "I analyze it manually",
-    body: "I review your profile school-by-school against Canadian medical school requirements and trends — no generic templates.",
+    title: "I go through it properly",
+    body: "I review your profile the same way an admissions lens would, looking at Canadian med school expectations, patterns, and where you’re currently strong or falling short.",
   },
   {
     number: "03",
-    title: "You get a clear plan",
-    body: "Within 48 hours you receive a written breakdown of your biggest limiting factors and the highest-impact next steps.",
+    title: "You get a clear, prioritized plan",
+    body: "Within 48 hours, you get a written breakdown of what’s holding your application back the most, and what to actually focus on next to improve your chances in the fastest, highest-impact way.",
   },
 ]
 
@@ -24,11 +24,11 @@ export function HowItWorks() {
     >
       <div className="mx-auto max-w-6xl px-5 py-16 md:py-24">
         <div className="max-w-2xl">
-          <p className="font-heading text-sm font-semibold uppercase tracking-wider text-primary">
+          <p className="font-heading text-sm font-semibold tracking-wider text-primary">
             How it works
           </p>
           <h2 className="mt-3 text-balance font-heading text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            From guesswork to a clear direction
+            Giving you  clarity in this uncertain process
           </h2>
         </div>
 
