@@ -7,16 +7,13 @@ export function SiteFooter() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">
             <div className="flex items-center gap-2">
-              <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <Compass className="size-5" aria-hidden="true" />
-              </span>
               <span className="font-heading text-lg font-semibold tracking-tight text-foreground">
-                Premed Compass
+                Mo Alasadi
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Personalized strategy reviews for Canadian medical school
-              applicants. Clear direction, returned within 48 hours.
+              applicants.
             </p>
           </div>
 
@@ -32,11 +29,6 @@ export function SiteFooter() {
                 <li>
                   <a href="#pricing" className="text-muted-foreground transition-colors hover:text-foreground">
                     Pricing
-                  </a>
-                </li>
-                <li>
-                  <a href="#eligibility" className="text-muted-foreground transition-colors hover:text-foreground">
-                    Eligibility checker
                   </a>
                 </li>
                 <li>
@@ -64,9 +56,9 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Premed Compass. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mo Alasadi. All rights reserved.</p>
           <p>
-            Guidance only — not a guarantee of admission to any institution.
+            Guidance only. Not a guarantee of admission to any institution.
           </p>
         </div>
       </div>
