@@ -44,7 +44,7 @@ export function SiteFooter() {
                 <li>
                   <a
                     href="mailto:drmalasadi@gmail.com"
-                    className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"
+                    className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground break-all"
                   >
                     <Mail className="size-4" aria-hidden="true" />
                     drmalasadi@gmail.com
