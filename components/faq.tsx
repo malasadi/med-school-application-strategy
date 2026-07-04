@@ -9,10 +9,6 @@ const faqs = [
     a: "Canadian premed students who are deciding whether to apply this cycle, which schools to target, and what to fix before they submit.",
   },
   {
-    q: "How fast will I get my review?",
-    a: "Every full strategy review is returned within 48 hours of receiving your profile details.",
-  },
-  {
     q: "What's the difference between the free checker and the paid review?",
     a: "The free checker gives an instant snapshot of how your GPA and MCAT compare across schools. The $59 review is a manual, written analysis that factors in your activities, timeline, and what specifically needs to change for your application to be competitive.",
   },
@@ -22,7 +18,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Click the review button, complete a short intake form with your profile details, and you'll hear from me within 48 hours.",
+    a: "Click the review button, complete a short intake form with your profile details, and we'll get started with your full review.",
   },
 ]
 

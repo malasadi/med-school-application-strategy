@@ -31,7 +31,7 @@ export function Hero() {
                 href="https://buy.stripe.com/3cI28td5BaF96LF1qk8IU00"
                 className={cn(buttonVariants(), "h-12 gap-2 px-6 text-base")}
               >
-                Get my strategy review ($59)
+                Get my strategy review ($89)
                 <ArrowRight className="size-4" />
               </a>
 

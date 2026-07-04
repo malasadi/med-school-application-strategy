@@ -12,7 +12,7 @@ const steps = [
   {
     number: "03",
     title: "You get a clear, prioritized plan",
-    body: "Within 48 hours, you get a written breakdown of what’s holding your application back the most, and what to actually focus on next to improve your chances in the fastest, highest-impact way.",
+    body: "You get a written breakdown of what’s holding your application back the most, and what to actually focus on next to improve your chances in the fastest, highest-impact way.",
   },
 ]
 

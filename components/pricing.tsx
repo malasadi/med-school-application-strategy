@@ -5,10 +5,9 @@ import { cn } from "@/lib/utils"
 const reviewIncludes = [
   "Written profile analysis",
   "School-by-school assessment",
-  "Your 2–3 biggest limiting factors",
+  "Your biggest limiting factors",
   "6-month action plan",
   "Recommended target school list",
-  "Returned within 48 hours",
 ]
 
 const freeIncludes = [
@@ -43,7 +42,7 @@ export function Pricing() {
             </h3>
             <div className="mt-3 flex items-baseline gap-1.5">
               <span className="font-heading text-4xl font-semibold text-foreground">
-                $59
+                $89
               </span>
               <span className="text-sm text-muted-foreground">
                 one-time, per review
